@@ -3,13 +3,13 @@
 ## Additional Learning Resources
 
 - **Microsoft Learn:**
-  - [SC-900 Microsoft Security, Compliance, and Identity Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/sc-900) - Time to Complete: 6 hours
+  - [SC-900 Microsoft Security, Compliance, and Identity Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals/?practice-assessment-type=certification) - Time to Complete: 6 hours
 - **Udemy:**
-  - [SC-900 Exam Prep](https://www.udemy.com/course/sc-900-microsoft-security-compliance-and-identity-fundamentals) - Time to Complete: 5 hours
+  - [SC-900 Exam Prep](https://www.udemy.com/course/sc900-azure/?couponCode=ST10MT8624) - Time to Complete: 5 hours
 - **Pluralsight:**
-  - [Microsoft SC-900: Security, Compliance, and Identity Fundamentals](https://www.pluralsight.com/courses/microsoft-security-compliance-identity-fundamentals-sc-900) - Time to Complete: 4 hours
+  - [Microsoft SC-900: Security, Compliance, and Identity Fundamentals](https://app.pluralsight.com/paths/certificate/microsoft-security-compliance-and-identity-fundamentals-sc-900) - Time to Complete: 4 hours
 - **YouTube:**
-  - [SC-900 Exam Preparation](https://www.youtube.com/results?search_query=sc-900+exam+preparation) - Time to Complete: Varies
+  - [SC-900 Exam Preparation](https://www.youtube.com/watch?v=Bz-8jM3jg-8) - Time to Complete: 6 hours
 
 ## Table of Contents
 1. [Encryption](#encryption)
