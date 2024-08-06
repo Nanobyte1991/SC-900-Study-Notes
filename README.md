@@ -1,5 +1,16 @@
 # SC-900 Study Notes
 
+## Additional Learning Resources
+
+- **Microsoft Learn:**
+  - [SC-900 Microsoft Security, Compliance, and Identity Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/sc-900) - Time to Complete: 6 hours
+- **Udemy:**
+  - [SC-900 Exam Prep](https://www.udemy.com/course/sc-900-microsoft-security-compliance-and-identity-fundamentals) - Time to Complete: 5 hours
+- **Pluralsight:**
+  - [Microsoft SC-900: Security, Compliance, and Identity Fundamentals](https://www.pluralsight.com/courses/microsoft-security-compliance-identity-fundamentals-sc-900) - Time to Complete: 4 hours
+- **YouTube:**
+  - [SC-900 Exam Preparation](https://www.youtube.com/results?search_query=sc-900+exam+preparation) - Time to Complete: Varies
+
 ## Table of Contents
 1. [Encryption](#encryption)
 2. [Responsibilities](#responsibilities)
@@ -26,52 +37,47 @@
 
 ## Responsibilities
 
-### Customer Responsibilities
-- **Data Protection:** Ensure the data is secure both in transit and at rest.
-- **Identity Management:** Manage user identities and access.
-- **Compliance:** Ensure compliance with regulatory requirements.
-
-### Cloud Provider Responsibilities
-- **Infrastructure Security:** Secure the physical and virtual infrastructure.
-- **Data Center Operations:** Manage data center operations, including disaster recovery.
-- **Compliance:** Maintain compliance certifications for infrastructure.
+### Shared Responsibility Model
+- **Customer Responsibilities:** Data, endpoints, account management.
+- **Cloud Provider Responsibilities:** Physical infrastructure, network, host environment.
+- **Example:** Azure Shared Responsibility Model
 
 ## Privacy Principles
 
 ### Data Minimization
-- **Description:** Collect only the data that is necessary for the intended purpose.
-- **Practice:** Regularly review and delete unnecessary data.
+- **Description:** Only collecting data that is necessary for a specific purpose.
+- **Example:** Only asking for an email address when signing up for a newsletter.
 
-### Purpose Limitation
-- **Description:** Use data only for the purposes for which it was collected.
-- **Practice:** Inform users about data usage policies.
+### Data Sovereignty
+- **Description:** Data is subject to the laws and regulations of the country where it is collected.
+- **Example:** GDPR compliance in the EU.
 
-### Data Accuracy
-- **Description:** Ensure data is accurate and up-to-date.
-- **Practice:** Regularly update and correct inaccurate data.
+### Data Subject Rights
+- **Description:** Rights of individuals to access and control their personal data.
+- **Example:** Right to be forgotten under GDPR.
 
 ## Key Areas
 
 ### Identity and Access Management (IAM)
-- **Description:** Processes and technologies for managing digital identities and controlling access to resources.
-- **Example:** Azure Active Directory (Azure AD)
+- **Description:** Framework for managing digital identities and controlling access to resources.
+- **Example:** Azure Active Directory
 
 ### Information Protection
-- **Description:** Safeguard sensitive information from unauthorized access and disclosure.
+- **Description:** Protecting sensitive information from unauthorized access and disclosure.
 - **Example:** Azure Information Protection
 
-### Security Management
-- **Description:** Tools and processes to manage security policies, monitor threats, and respond to security incidents.
-- **Example:** Azure Security Center
+### Threat Protection
+- **Description:** Detecting and responding to threats to maintain security.
+- **Example:** Microsoft Defender for Cloud
 
 ## Cloud Deployments
 
 ### Public Cloud
 - **Description:** All resources are hosted in the cloud provider’s infrastructure.
-- **Example:** Microsoft Azure
+- **Example:** Azure
 
 ### Private Cloud
-- **Description:** All resources are hosted within an organization’s own data center.
+- **Description:** All resources are hosted within an organization's own data center.
 - **Example:** On-premises data center
 
 ### Hybrid Cloud
@@ -117,16 +123,14 @@
 ## Services and Regions
 
 ### Azure Regions
-- **Description:** Geographic locations where Azure services are available.
-- **Examples:** East US, West Europe, Southeast Asia
+- **Description:** Geographic locations where Azure resources are hosted.
+- **Example:** East US, West Europe
 
-### Global Network
-- **Description:** Microsoft’s private global network that connects its data centers.
-- **Benefits:** Low latency, high availability, and robust security.
+### Availability Zones
+- **Description:** Physically separate locations within an Azure region.
+- **Example:** Zone-redundant services to protect from datacenter failures.
 
-### Service Categories
-- **Compute:** Virtual machines, containers, serverless computing.
-- **Storage:** Object storage, file storage, databases.
-- **Networking:** Virtual networks, load balancers, VPNs.
-- **Security:** Identity management, encryption, threat protection.
-- **Management Tools:** Monitoring, automation, governance tools.
+### Resource Groups
+- **Description:** Logical containers for Azure resources.
+- **Example:** Grouping related resources for management and billing purposes.
+
